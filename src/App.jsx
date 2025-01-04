@@ -1,7 +1,16 @@
 import React from 'react'
+import Navber from './component/navber/Navber'
+import Banner from './component/banner/Banner'
+import Service from './component/service_part/Service'
 
-export const App = () => {
+const App = () => {
   return (
-    <div>App</div>
+    <div>
+      <Navber />
+      <Banner/>
+      <Service/>
+    </div>
   )
 }
+
+export default App
